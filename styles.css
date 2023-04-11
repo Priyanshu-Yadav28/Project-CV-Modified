@@ -278,13 +278,44 @@ hr {
        margin-bottom: 20px;
     }
 
-    .top-section {
+    /* .top-section {
         height: 80vh;
     }
     .programmer {
         margin: 15px;
+    } */
+
+    .skill-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .myskill-photo{
+        width: 280px;
+    }
+    .tech-photo {
+        width: 280px;
     }
 
+    .profile-pic {
+        width: 280px;
+    }
+
+    .mountain-img {
+        width: 480px;
+    }
 }
 
+
+/* @media (min-width: 500px) {
+    .tech-stack {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+     }
+} */
 
